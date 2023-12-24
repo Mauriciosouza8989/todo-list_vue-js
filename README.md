@@ -1,29 +1,34 @@
 # todo-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Nesta aplicação, você poderá:
+<ul>
+  <li>
+     Criar a sua lista de tarefas
+  </li>
+  <li>
+    Marcar tarefas finalizadas
+  </li>
+  <li>
+    Filtar por tarefas <i>finalizadas ou pendentes</i>
+  </li>
+  <li>
+    Apagar tarefas
+  </li>
+</ul>
 
-## Recommended IDE Setup
+Lembrando que tudo ficará salvo no localStorage. Então não perderá a lista ao recarregar a página.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## IDE recomendada
 
-## Customize configuration
+[VSCode](https://code.visualstudio.com/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Após clonar o repositório rode os seguintes comandos
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### [Visite o projeto em produção](https://code.visualstudio.com/)
