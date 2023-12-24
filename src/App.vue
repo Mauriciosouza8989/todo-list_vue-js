@@ -4,7 +4,6 @@
     import Formulario from './components/Formulario.vue';
     import ListaDeTarefas from './components/ListaDeTarefas.vue';
     const local = localStorage.getItem('tarefas');
-    console.log(local)
     if(local == null){
         localStorage.setItem('tarefas', JSON.stringify([]));
     }

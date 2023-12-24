@@ -5,7 +5,7 @@
 <template>
     <form @submit.prevent="props.adicionarTarefa">
         <div class="row">
-            <div class="col">
+            <div class="col-md-7 col-lg">
                 <input
                     :value="props.estado.inputValue"
                     @keyup="event => props.estado.inputValue = event.target.value"
@@ -14,7 +14,7 @@
                     class="form-control"
                 />
             </div>
-            <div class="col-md-2">
+            <div class="mt-2 mb-3 mt-md-0 mb-md-0 col-md-2">
                 <button
                     v-if="props.estado.inputValue !== ''"
                     type="submit"
@@ -26,7 +26,7 @@
                     Cadastrar
                 </button>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <select
                     @change="(event) => (props.estado.filtro = event.target.value)"
                     class="form-control"
