@@ -17,7 +17,7 @@
 <template>
     <div>
         <hr>
-        <h3 id="mensagem" v-if="props.filtrarTarefas.length <= 0">Adicione tarefas aqui</h3>
+        <h3 id="mensagem" v-if="props.filtrarTarefas.length <= 0">Você nãotem tarefas aqui.</h3>
     </div>
     <ul class="list-group mt-4" v-for="tarefa in props.filtrarTarefas">
         <li
