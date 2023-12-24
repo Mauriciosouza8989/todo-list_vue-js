@@ -31,4 +31,4 @@ npm install
 ```sh
 npm run dev
 ```
-### [Visite o projeto em produção](https://code.visualstudio.com/)
+### [Visite o projeto em produção](https://todo-list-vue-js-eight.vercel.app/)
